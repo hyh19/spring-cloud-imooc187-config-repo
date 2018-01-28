@@ -13,3 +13,5 @@ spring:
     password: guest    
 env:
   test22
+from:
+  gitee
