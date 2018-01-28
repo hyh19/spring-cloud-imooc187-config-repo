@@ -12,5 +12,4 @@ spring:
     username: guest
     password: guest    
 env:
-  name:
-    aa
+  test
