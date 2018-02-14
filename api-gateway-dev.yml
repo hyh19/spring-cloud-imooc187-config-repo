@@ -1,0 +1,12 @@
+management:
+  security:
+    enabled: false
+zuul:
+  routes:
+  #/myProduct/product/list -> /product/product/list
+#自定义路由转发
+#    aaaaa:
+#      path: /myProduct/**
+#      serviceId: product
+#简洁写法
+    product: /myProduct/**
