@@ -9,4 +9,4 @@ zuul:
 #      path: /myProduct/**
 #      serviceId: product
 #简洁写法
-    product: /myProduct/**
+    product: /myProduct2/**
