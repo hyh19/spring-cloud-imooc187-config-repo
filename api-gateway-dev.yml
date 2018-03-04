@@ -9,13 +9,7 @@ zuul:
 #    product: /myProduct/**
   #排除某些路由
   ignored-patterns:
-    - /**/product/listForOrder
-  #所有服务都可使用cookie
-  sensitive-headers:   
+    - /**/product/listForOrder 
 management:
   security:
-    enabled: false
-spring:
-  redis:
-    host: localhost
-    port: 6379         
+    enabled: false        
