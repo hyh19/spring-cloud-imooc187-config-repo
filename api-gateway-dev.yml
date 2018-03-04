@@ -10,7 +10,8 @@ zuul:
   #排除某些路由
   ignored-patterns:
     - /**/product/listForOrder
-  ignored-headers: Cookie    
+  #全局使用cookie
+  sensitive-headers:   
 management:
   security:
     enabled: false
