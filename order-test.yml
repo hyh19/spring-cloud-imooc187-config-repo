@@ -13,9 +13,7 @@ spring:
     password: guest
   redis:
     host: 127.0.0.1
-    port: 6379
-  zipkin:
-    base-url: http://localhost:9911    
+    port: 6379  
 env:
   test12
 girl:
