@@ -17,5 +17,5 @@ spring:
 env:
   test12
 girl:
-  name: momo
+  name: mo
   age: 26
