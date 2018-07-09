@@ -14,4 +14,11 @@ zuul:
     - /**/product/listForOrder 
 management:
   security:
-    enabled: false        
+    enabled: false    
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
