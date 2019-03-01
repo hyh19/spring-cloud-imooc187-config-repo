@@ -18,7 +18,7 @@ env:
   test13
 girl:
   name: mo
-  age: 17
+  age: 10
 feign:
   client:
     config:
