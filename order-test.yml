@@ -26,3 +26,9 @@ feign:
         connectTimeout: 5000
         readTimeout: 5000
         loggerLevel: basic  
+# 暴露actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
